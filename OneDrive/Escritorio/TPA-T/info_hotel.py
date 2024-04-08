@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout, QGroupBox
 class HotelInfoWidget(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('Información del Hotel')
+        self.setWindowTitle('Bienvenido al Hotel CTZ')
 
         self.initUI()
 
