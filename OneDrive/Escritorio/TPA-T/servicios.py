@@ -20,3 +20,4 @@ class AdditionalServicesWidget(QWidget):
         layout.addWidget(services_group)
 
         self.setLayout(layout)
+        self.setGeometry(100,100,400,400)

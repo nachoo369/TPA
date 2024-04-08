@@ -21,7 +21,7 @@ class RoomSelectionWidget(QWidget):
         ]
 
         for room_type, price, capacity in room_types:
-            room_label = QLabel(f"{room_type}: {price} / Capacidad: {capacity}")
+            room_label = QLabel(f"{room_type}: {price} \n Capacidad: {capacity}")
             rooms_layout.addWidget(room_label)
 
         rooms_group.setLayout(rooms_layout)
@@ -29,3 +29,4 @@ class RoomSelectionWidget(QWidget):
         layout.addWidget(rooms_group)
 
         self.setLayout(layout)
+        self.setGeometry(100,100,400,400)
