@@ -5,7 +5,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('Hotel CTCh')
-        self.setStyleSheet("background-color: #ecdfcd;")
+        #self.setStyleSheet("background-color: #ecdfcd;")
 
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
